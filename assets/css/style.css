@@ -1422,14 +1422,14 @@ button.btn-md:hover {
 }
 .scrollup:hover {
   /* background: #ff7200; */
-  background: rgba(139, 195, 74, 0.5);
+  background: #4caf50;
   opacity: 1;
 }
 .scrollup i {
   font-size: 13px;
   position: absolute;
   opacity: 1;
-  color: #000000;
+  color: #fff;
   left: 50%;
   top: 50%;
   margin-top: -7px;
