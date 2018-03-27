@@ -2,8 +2,8 @@
 @dark-green: rgb(76, 175, 80);
 @real-dark-green: #285327;
 @accend-color: #af000c;
-@font-color: #ffffff;
-@font-color2: #000000;
+@font-color: #000000;
+@font-color2: #fff;
 
 html, body {
   background-color: @light-green;
@@ -124,7 +124,7 @@ input[type="color"],
   padding: 6px 25px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #000;
+  color: @font-color;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -145,7 +145,7 @@ h3 {
   font-weight: 300;
   margin: 0;
   font-family: 'montserratregular';
-  color: black;
+  color: @font-color;
 }
 h4,
 h5 {
@@ -157,7 +157,7 @@ h5 {
 h1 {
   font-size: 3.75rem;
   line-height: 5.5rem;
-  color:#fff;
+  color:@font-color;
   letter-spacing: .4rem;
 }
 h2 {
@@ -180,7 +180,7 @@ h4 {
 h5 {
   font-size: 1.125rem;
   margin-bottom: 1rem;
-  color:@dark-green;
+  color:@font-color;
   text-transform: uppercase;
 }
 h6 {
@@ -200,11 +200,11 @@ p:last-child {
 .home-wrap h4,
 .home-wrap h5,
 .home-wrap p {
-  color: #ffffff;
+  color: @font-color;
   /*font-family: 'roboto', sans-serif;*/
 }
 .text {
-  color: @font-color2;
+  color: @font-color;
 }
 .colorstext {
   color: @light-green;
@@ -249,7 +249,7 @@ section .subtitle h5 {
 }
 .parallax-section {
   max-width: 100%;
-  color: #ffffff;
+  color: @font-color;
 }
 section .title-half h2 {
   font-size: 3rem;
@@ -370,7 +370,7 @@ Button
 .btn-primary:focus,
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
-  color: #ffffff;
+  color: @font-color;
   background-color: @light-green;
   border-color: @dark-green;
 }
@@ -383,7 +383,7 @@ Button
   line-height: 30px;
   height: 50px;
   text-align: center;
-  color: #fff;
+  color: @font-color;
   letter-spacing: 1px;
   margin: 0;
   font-size:0.8125rem;
@@ -399,7 +399,7 @@ Button
 .btn:hover {
   /* background-color:#f4720a; */
   background-color: fade(@light-green, 50);
-  color: #fff;
+  color: @font-color;
   text-decoration: none;
   border: 1px solid @accend-color;
 }
@@ -412,20 +412,20 @@ Button
 }
 
 .btn_news_color{
-  color:@dark-green;
+  color: @font-color;
   border-color: @dark-green;
 }
 
 .btn-md{
   border:1px solid @dark-green;
-  color: @dark-green;
+  color: @font-color;
   padding: 10px 45px 10px 0px;
 }
 
 
 .btn-larg{
   border: 1px solid #fff;
-  color:#fff;
+  color:@font-color;
   padding: 6px 30px;
 }
 
@@ -503,7 +503,7 @@ Extra height css
   padding: 40px 0;
 }
 h1 span {
-  color: @dark-green;
+  color: @font-color;
   font-weight: 400;
 }
 
@@ -572,7 +572,7 @@ input::-ms-input-placeholder {
 
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
   /* color: #ff7200; */
-  color: @font-color2;
+  color: @font-color;
   padding-bottom: 22px;
   border-bottom: 1px solid @accend-color;
   background: transparent;
@@ -584,14 +584,14 @@ input::-ms-input-placeholder {
   padding-bottom: 20px;
   text-transform: uppercase;
   font-size: 0.875rem;
-  color: #fff;
+  color: @font-color;
   font-family: 'montserratregular';
 }
 .navbar-brand {
   padding: 0px 15px;
 }
 .navbar-brand>img {
-  max-width: 80%;
+  max-height: 45px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
   background-color:transparent;
@@ -641,7 +641,7 @@ input::-ms-input-placeholder {
   margin-bottom:90px;
 }
 .head_title h3{
-  color:@font-color2;
+  color:@font-color;
 }
 .head_title p{
   font-family: 'playfair_displayregular';
@@ -729,12 +729,12 @@ input::-ms-input-placeholder {
   background: url(../images/stabmenubghv.png) no-repeat top center;
   width:250px;
   height: 180px;
-  color:#fff;
+  color:@font-color;
 
 }
 .service_tabe ul li a:hover{
   background: url(../images/stabmenubghv.png) no-repeat top center;
-  color:#fff;
+  color: @font-color;
 }
 .service_tabe ul li a i{
   font-size:2rem;
@@ -767,7 +767,7 @@ input::-ms-input-placeholder {
 .single_features_text a{
   margin-top:35px;
   background: transparent;
-  color:#444444;
+  color:@font-color;
   border:1px solid #ddd;
   font-size:0.8125rem;
   padding-top: 0.8em;
@@ -786,7 +786,7 @@ input::-ms-input-placeholder {
 }
 .video .icon{}
 .video .icon h3{
-  color:#fff;
+  color:@font-color;
   margin-top:30px;
   margin-bottom: 0px;
 }
@@ -826,7 +826,7 @@ input::-ms-input-placeholder {
 
 .about .single_about:hover .single_ab_icon i {
   background: url(../images/iconbg1h.png) no-repeat center center;
-  color: #fff;
+  color: @font-color;
 
 }
 
@@ -864,12 +864,12 @@ input::-ms-input-placeholder {
 }
 
 .about_skill_area .about_tabe .about_tabe_menu li.active a:hover, .about_tabe_menu li.active a:focus {
-  color: #fff;
+  color: @font-color;
   cursor: pointer;
   background: url(../images/skmenubgh.png) no-repeat top center;
 }
 .about_skill_area .about_tabe .about_tabe_menu li a:hover{
-  color: #fff;
+  color: @font-color;
   background: url(../images/skmenubgh.png) no-repeat top center;
 }
 /*.about_skill_area .nav-tabs>li>a:hover{
@@ -901,7 +901,7 @@ input::-ms-input-placeholder {
   border:1px solid #dddddd;
 }
 .skillbar-title {
-  color: #323232;
+  color: @font-color;
   font-size: 14px;
   left: 0;
   position: absolute;
@@ -941,7 +941,7 @@ input::-ms-input-placeholder {
 }
 
 .counter .main_counter_area .single_counter h2{
-  color:#fff;
+  color:@font-color;
   font-size:2.8125rem;
 }
 .counter .main_counter_area .single_counter i{
@@ -952,7 +952,7 @@ input::-ms-input-placeholder {
   margin-top:20px;
 }
 .counter .main_counter_area .single_counter p{
-  color:#fff;
+  color: @font-color;
   font-size:0.8125rem;
 }
 
@@ -995,7 +995,7 @@ input::-ms-input-placeholder {
 }
 .othersservice .single_othersservice:hover .single_othersservice_icon h4 i{
   background: url(../images/iconbgh2.png) no-repeat center center;
-  color:#fff;
+  color:@font-color;
 }
 .othersservice .single_othersservice .single_othersservice_content{
 
@@ -1004,7 +1004,7 @@ input::-ms-input-placeholder {
 
 /* Team section css */
 .team{
-  color:#fff;
+  color:@font-color;
 }
 
 .team .single_team_content{
@@ -1050,7 +1050,7 @@ input::-ms-input-placeholder {
 }
 .team .single_team_content .single_team_text_overlay .team_overlay_socail a i{
   border:1px solid #fff;
-  color:#fff;
+  color:@font-color;
   width:30px;
   height: 30px;
   text-align: center;
@@ -1111,7 +1111,7 @@ input::-ms-input-placeholder {
   transition: 0.6s;
 }
 .choose .main_choose .single_choose .single_choose_acording .panel-title:hover a i{
-  color: #fff;
+  color: @font-color;
   background: url(../images/ch_col_icn_h.png) no-repeat left center;
 }
 .choose .main_choose .single_choose .single_choose_acording .panel-title a i.fa-chevron-down{
@@ -1133,7 +1133,7 @@ button.btn-md:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 button.btn-md {
   text-align: center;
-  color: #444;
+  color: @font-color;
   letter-spacing: 1px;
   margin: 0;
   font-size: 0.8125rem;
@@ -1200,7 +1200,7 @@ button.btn-md:hover {
   height: 80%;
   /* background: rgba(255, 114, 0, 0.75); */
   background: fade(@light-green, 50);
-  color:#fff;
+  color: @font-color;
   padding: 20px;
   opacity: 0;
   transition: 0.6s;
@@ -1231,7 +1231,7 @@ button.btn-md:hover {
   line-height: 30px;
   text-align: center;
   border:1px solid #fff;
-  color:#fff;
+  color: @font-color;
   display: inline-block;
   background: transparent;
 }
@@ -1333,16 +1333,16 @@ button.btn-md:hover {
   background-size: cover;
 }
 .main_testimonial {
-  color:#fff;
+  color:@font-color;
 }
 .main_testimonial .single_testimonial i{
-  color:#fff;
+  color:@font-color;
   margin-bottom:30px;
   font-size:2rem;
   padding: 2px;
 }
 .main_testimonial .single_testimonial p{
-  color:#fff;
+  color:@font-color;
   letter-spacing: .03rem;
 }
 .main_testimonial .single_testimonial .single_test_author{
@@ -1350,7 +1350,7 @@ button.btn-md:hover {
   display: inline-block;
 }
 .main_testimonial .single_testimonial .single_test_author h4{
-  color:#fff;
+  color:@font-color;
   margin-bottom:0px;
   font-size:1rem;
 }
@@ -1358,7 +1358,7 @@ button.btn-md:hover {
   font-family: 'ralewayregular';
 }
 .main_testimonial .single_testimonial .single_test_author p{
-  color:#fff;
+  color:@font-color;
 }
 
 .main_testimonial .owl-theme .owl-dots .owl-dot span {
@@ -1452,7 +1452,7 @@ button.btn-md:hover {
 
 .footer_widget{
   background: #1a1a1a;
-  color:#fff;
+  color:@font-color2;
   background-size: cover;
 }
 .footer_widget .main_widget{
@@ -1470,7 +1470,7 @@ button.btn-md:hover {
   display:block;
   overflow: hidden;
   font-size:0.875rem;
-  color:#fff;
+  color:@font-color2;
   line-height: 1.4rem;
 }
 .single_widget ul li a:hover{
@@ -1542,7 +1542,7 @@ button.btn-md:hover {
   text-align: right;
 }
 .footer .flowus a i{
-  color:#fff;
+  color:@font-color;
   font-size:1rem;
   padding: 5px;
   border:1px solid #fff;
@@ -1564,7 +1564,7 @@ button.btn-md:hover {
   text-align: left;
 }
 .copyright_text p{
-  color:#fff;
+  color:@font-color;
   line-height: 25px;
   max-width: 100%;
   padding-top: 15px;
@@ -1589,7 +1589,7 @@ button.btn-md:hover {
   position: fixed;
   bottom: 20px;
   right: 25px;
-  color: #fff;
+  color: @font-color;
   cursor: pointer;
   background-color: #000;
   z-index: 1000;
@@ -1608,7 +1608,7 @@ button.btn-md:hover {
   font-size: 13px;
   position: absolute;
   opacity: 1;
-  color: #fff;
+  color: @font-color;
   left: 50%;
   top: 50%;
   margin-top: -7px;
