@@ -1226,10 +1226,6 @@ button.btn-md:hover {
   background: #eeeeee;
 }
 /*contact section css*/
-.contact {
-  background: url(../images/contactbg.png) no-repeat center center;
-  background-size: cover;
-}
 .contact .single_contact_info {
   margin-bottom: 45px;
   overflow: hidden;
