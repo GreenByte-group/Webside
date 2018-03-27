@@ -330,7 +330,7 @@ Separator
   height: 2px;
   width: 30px;
   margin: 20px 0px;
-  background: #af000c;
+  background: #ffe600;
 }
 /*section:nth-of-type(odd) {
     background-color: #F9F9F9;
@@ -370,7 +370,7 @@ Button
   /* background-color: #ff7200; */
   background-color: rgba(139, 195, 74, 0.5);
   transition: .5s;
-  border: 1px solid #af000c;
+  border: 1px solid #ffe600;
   font-family: 'montserratregular';
 }
 .btn:hover {
@@ -378,7 +378,7 @@ Button
   background-color: rgba(139, 195, 74, 0.5);
   color: #000000;
   text-decoration: none;
-  border: 1px solid #af000c;
+  border: 1px solid #ffe600;
 }
 .btn-primary {
   /* background-color: #ff7200; */
@@ -532,7 +532,7 @@ input::-ms-input-placeholder {
   /* color: #ff7200; */
   color: #000000;
   padding-bottom: 22px;
-  border-bottom: 1px solid #af000c;
+  border-bottom: 1px solid #ffe600;
   background: transparent;
 }
 .main_menu_bg .navbar-nav > li > a {
@@ -553,7 +553,7 @@ input::-ms-input-placeholder {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: transparent;
-  color: #af000c;
+  color: #ffe600;
 }
 .dropdown-menu {
   min-width: 160px;
@@ -573,7 +573,7 @@ input::-ms-input-placeholder {
 }
 .dropdown-menu .navbar-form .form-group input[type="text"] {
   background-color: rgba(34, 61, 97, 0.68);
-  border: 1px solid #af000c;
+  border: 1px solid #ffe600;
   /* color:#ff7200; */
   color: rgba(139, 195, 74, 0.5);
   width: 300px;
@@ -684,7 +684,7 @@ input::-ms-input-placeholder {
   margin-bottom: 25px;
 }
 .service .tab-content {
-  margin-top: 100px;
+  margin-top: 30px;
 }
 /*features section css*/
 .single_features_text p {
@@ -1016,7 +1016,7 @@ button.btn-md {
   margin-top: 0px;
   background-color: transparent;
   transition: .5s;
-  border: 0px solid #af000c;
+  border: 0px solid #ffe600;
   font-family: 'montserratregular';
 }
 button.btn-md:hover {
@@ -1024,7 +1024,7 @@ button.btn-md:hover {
   /* color: #ff7200; */
   color: rgba(139, 195, 74, 0.5);
   text-decoration: none;
-  border: 0px solid #af000c;
+  border: 0px solid #ffe600;
 }
 .portfolio .toolbar {
   margin-bottom: 50px;
@@ -1383,7 +1383,7 @@ button.btn-md:hover {
 .footer .flowus a i:hover {
   /* color:#ff7200; */
   color: rgba(139, 195, 74, 0.5);
-  border: 1px solid #af000c;
+  border: 1px solid #ffe600;
 }
 .copyright_text {
   text-align: left;
@@ -1396,7 +1396,7 @@ button.btn-md:hover {
 }
 .copyright_text p i {
   padding: 0px 10px;
-  color: #af000c;
+  color: #ffe600;
 }
 .copyright_text p a {
   padding: 0px 10px;

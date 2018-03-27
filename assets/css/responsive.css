@@ -12,11 +12,11 @@ Author URI: http://www.bootstrapthemes.co
     }
 
     .service .nav-tabs>li>a{
-        width:195px;
+        width:185px;
         font-size: 95%;
     }   
     .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
-        width:195px;
+        width:185px;
     }
 
     .about .single_about .single_ab_text {
@@ -60,11 +60,11 @@ Author URI: http://www.bootstrapthemes.co
         line-height: 2rem;
     }
     .service .nav-tabs>li>a{
-        width:158px;
+        width:148px;
         font-size: 95%;
     }   
     .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
-        width:158px;
+        width:148px;
     }
 
     .about_skill_area .about_tabe .about_tabe_menu li a {
