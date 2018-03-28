@@ -8,8 +8,15 @@
 .dark-background {
   background: #4caf50 !important;
 }
+.bold {
+  font-weight: bold;
+}
+.single_tab_img {
+  text-align: right;
+}
 .single_tab_img img {
   padding-bottom: 15px;
+  max-height: 250px;
 }
 #logo-start {
   width: 300px;
@@ -532,7 +539,7 @@ input::-ms-input-placeholder {
   z-index: 300;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  background-color: rgba(76, 175, 80, 0.77);
+  background-color: rgba(76, 175, 80, 0.9);
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
