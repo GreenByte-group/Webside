@@ -23,6 +23,13 @@ p a {
 p a:hover {
   text-decoration: underline;
 }
+.header ul li a {
+  color: #fff !important;
+  transition: color 500ms;
+}
+.menu-scroll ul li a {
+  color: #000000 !important;
+}
 html,
 body {
   background-color: #8BC34A;
