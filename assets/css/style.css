@@ -1473,3 +1473,8 @@ button.btn-md:hover {
   margin-left: -6px;
   text-decoration: none;
 }
+.supportLogo{
+  background: white;
+  color: #fff;
+  background-size: cover;
+}
