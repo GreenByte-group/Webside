@@ -11,6 +11,11 @@
 .single_tab_img img {
   padding-bottom: 15px;
 }
+#logo-start {
+  width: 300px;
+  margin: auto;
+  display: block;
+}
 html,
 body {
   background-color: #8BC34A;
@@ -309,7 +314,7 @@ Separator
   height: 2px;
   width: 50px;
   /* background: #ff7200; */
-  background: #8BC34A;
+  background: #ffe600;
   content: "";
 }
 .separator2 {
@@ -615,7 +620,7 @@ input::-ms-input-placeholder {
   background-size: cover;
 }
 .home .main_home {
-  padding-top: 350px;
+  padding-top: 300px;
 }
 .home .main_home h1 {
   color: #fff;
