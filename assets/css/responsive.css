@@ -235,7 +235,13 @@ Author URI: http://www.bootstrapthemes.co
     .about_skill_area .about_tabe .about_tabe_menu li a {
         width: 75px;
     }
+    .about .single_about .single_ab_text {
+        margin-left: 0px;
+    }
 
+    .about .single_about .single_ab_icon i {
+        width: 0px;
+    }
 
 }
 
@@ -252,15 +258,6 @@ Author URI: http://www.bootstrapthemes.co
     .about_skill_area .about_tabe .about_tabe_menu li a {
         width: 60px;
     }
-
-
-
-
-
-
-
-
-
 
 }
 
