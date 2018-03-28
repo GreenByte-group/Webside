@@ -8,6 +8,9 @@
 .dark-background {
   background: #4caf50 !important;
 }
+.single_tab_img img {
+  padding-bottom: 15px;
+}
 html,
 body {
   background-color: #8BC34A;
@@ -612,11 +615,12 @@ input::-ms-input-placeholder {
   background-size: cover;
 }
 .home .main_home {
-  padding-top: 250px;
+  padding-top: 350px;
 }
 .home .main_home h1 {
   color: #fff;
   margin-bottom: 20px;
+  text-align: center;
 }
 .home .main_home p {
   color: #fff;
@@ -624,6 +628,7 @@ input::-ms-input-placeholder {
   margin: 0 auto;
   padding-bottom: 30px;
   font-size: 1.125rem;
+  text-align: center;
 }
 .home .owl-theme .owl-nav {
   margin-top: 80px;
