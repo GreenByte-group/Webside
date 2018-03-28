@@ -11,6 +11,16 @@
   margin-left: 0px !important;
 }
 
+.light-background {
+  background: @light-green !important;
+}
+
+.dark-background {
+  background: @dark-green !important;
+}
+
+//custom end
+
 html, body {
   background-color: @light-green;
   font-size: 0.875rem;
@@ -570,7 +580,7 @@ input::-ms-input-placeholder {
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
   /* color:#ff7200; */
-  color: fade(@light-green, 50);
+  color: @font-color2;
 
   background: transparent;
 }
@@ -644,7 +654,7 @@ input::-ms-input-placeholder {
 }
 /*heading title all area*/
 .head_title{
-  margin-bottom:90px;
+  margin-bottom:30px;
 }
 .head_title h3{
   color:@font-color;
@@ -1039,9 +1049,9 @@ input::-ms-input-placeholder {
 .team .single_team_content .single_team_text_overlay{
   position: absolute;
   left: 15%;
-  top: 75%;
+  top: 70%;
   /* background: rgba(255, 114, 0, 0.75); */
-  background: fade(@light-green, 70);
+  background: fade(@light-green, 90);
   padding: 10px 20px;
   width:70%;
   opacity:0.5;

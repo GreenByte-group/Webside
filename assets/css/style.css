@@ -2,6 +2,12 @@
   margin-right: 0px !important;
   margin-left: 0px !important;
 }
+.light-background {
+  background: #8BC34A !important;
+}
+.dark-background {
+  background: #4caf50 !important;
+}
 html,
 body {
   background-color: #8BC34A;
@@ -523,7 +529,7 @@ input::-ms-input-placeholder {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   /* color:#ff7200; */
-  color: rgba(139, 195, 74, 0.5);
+  color: #fff;
   background: transparent;
 }
 .main_menu_bg .navbar-default .navbar-nav > .active > a,
@@ -592,7 +598,7 @@ input::-ms-input-placeholder {
 }
 /*heading title all area*/
 .head_title {
-  margin-bottom: 90px;
+  margin-bottom: 30px;
 }
 .head_title h3 {
   color: #000000;
@@ -913,9 +919,9 @@ input::-ms-input-placeholder {
 .team .single_team_content .single_team_text_overlay {
   position: absolute;
   left: 15%;
-  top: 75%;
+  top: 70%;
   /* background: rgba(255, 114, 0, 0.75); */
-  background: rgba(139, 195, 74, 0.7);
+  background: rgba(139, 195, 74, 0.9);
   padding: 10px 20px;
   width: 70%;
   opacity: 0.5;
